@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author Lewis and Loftus
  */
 
-public class GasMileage {
+public class ComputeGasMileage {
 
   /**
    * Demonstrate the use of the Scanner class to read user input.
