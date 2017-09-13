@@ -14,8 +14,8 @@ public class ComputeGasMileage {
 
   /**
    * Demonstrate the use of the Scanner class to read user input.
-   * Compile this program: javac GasMileage.java
-   * Run this program: java GasMileage
+   * Compile this program: javac ComputeGasMileage.java
+   * Run this program: java ComputeGasMileage
    */
   public static void main(String[] args) {
     int miles;
