@@ -2,12 +2,12 @@ import java.util.Date;
 import javax.swing.*;
 
 /**
- * This class produces simple graphical output.
- * The program will display a small grapical scene.
+ * This class uses another class to produce simple graphical output.
+ * The program will display a small graphical scene.
  *
  * <p>Bugs: This program has no known bugs.
  *
- * @author Lewis and Loftus
+ * @author Janyl Jumadinova and Eric Knoll
  */
 
 public class DisplayGraphicalScene {
