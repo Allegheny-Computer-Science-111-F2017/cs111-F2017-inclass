@@ -22,11 +22,14 @@ public class LogisticMap {
 
   /**
     * This is the main method that iteratively computes and displays.
-    * numberOfIterationsotice that this method displays graphics at the pixel-by-pixel level
+    * Notice that this method displays graphics at the pixel-by-pixel level
     * instead of using other methods that can draw and entire shape.
+    *
+    * <p>Compile this program: javac LogisticMap.java
+    * Run this program: java LogisticMap
+    * Run this program: java LogisticMap 0.80350
     */
   public static void main(String[] args) {
-
     // store the values
     ArrayList<Double> values = new ArrayList<Double>();
 
