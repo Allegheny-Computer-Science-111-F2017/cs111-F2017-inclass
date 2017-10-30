@@ -1,10 +1,3 @@
-//********************************************************************
-//  URLDissector.java       Author: Lewis/Loftus
-//
-//  Demonstrates the use of Scanner to read file input and parse it
-//  using alternative delimiters.
-//********************************************************************
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
