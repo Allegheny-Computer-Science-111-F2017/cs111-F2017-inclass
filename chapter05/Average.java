@@ -8,14 +8,12 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Average
-{
+public class Average {
   //-----------------------------------------------------------------
   //  Computes the average of a set of values entered by the user.
   //  The running sum is printed as the numbers are entered.
   //-----------------------------------------------------------------
-  public static void main (String[] args)
-  {
+  public static void main (String[] args) {
     int sum = 0, value, count = 0;
     double average;
 
@@ -24,8 +22,7 @@ public class Average
     System.out.print ("Enter an integer (0 to quit): ");
     value = scan.nextInt();
 
-    while (value != 0)  // sentinel value of 0 to terminate loop
-    {
+    while (value != 0) { // sentinel value of 0 to terminate loop
       count++;
 
       sum += value;
@@ -39,8 +36,7 @@ public class Average
 
     if (count == 0)
       System.out.println ("No values were entered.");
-    else
-    {
+    else {
       average = (double)sum / count;
 
       DecimalFormat fmt = new DecimalFormat ("0.###");
