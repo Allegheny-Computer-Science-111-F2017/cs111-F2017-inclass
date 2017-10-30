@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class LowercaseVowelDetector {
 
   /**
-   * Perform the detection of capital vowel detection.
-   * Compile this program: javac CapitalizedVowelDetector.java
-   * Run this program: java CapitalizedVowelDetector
+   * Perform the detection of lowercase vowel detection.
+   * Compile this program: javac LowercaseVowelDetector.java
+   * Run this program: java LowercaseVowelDetector
    */
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.print("Enter a character to test: ");
+    System.out.print("Enter a character to evaluate: ");
 
     char character;
     character = input.next().charAt(0);
@@ -28,7 +28,7 @@ public class LowercaseVowelDetector {
     } else if (character == 'u') {
       System.out.printf("%c is a vowel\n", character);
     } else {
-      System.out.printf("%c is not a vowel\n", character);
+      System.out.printf("%c is not a lowercase vowel\n", character);
     }
   }
 }
