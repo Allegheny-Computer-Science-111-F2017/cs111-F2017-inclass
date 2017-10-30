@@ -9,7 +9,6 @@ import java.util.Scanner;
  *
  * @author Lewis and Loftus
  */
-
 public class ComputeGasMileage {
 
   /**
@@ -18,18 +17,17 @@ public class ComputeGasMileage {
    * Run this program: java ComputeGasMileage
    */
   public static void main(String[] args) {
-    int miles;
-    double gallons;
-    double mpg;
-
     Scanner scan = new Scanner(System.in);
 
+    int miles;
     System.out.print("Enter the number of miles: ");
     miles = scan.nextInt();
 
+    double gallons;
     System.out.print("Enter the gallons of fuel used: ");
     gallons = scan.nextDouble();
 
+    double mpg;
     mpg = miles / gallons;
 
     System.out.println("Miles Per Gallon: " + mpg);
