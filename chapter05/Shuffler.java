@@ -1,19 +1,29 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Shuffler
-{
-  public static void main(String[] args)
-  {
+/**
+ * Demonstrates the use of an ArrayList and the shuffle method.
+ *
+ * <p>Bugs: This program has no known bugs.
+ *
+ * @author Kapfhammer
+ */
+public class Shuffler {
+
+  /**
+   * Demonstrate the use of shuffled ArrayLists.
+   * Compile this program: javac Shuffler.java
+   * Run this program: java Shuffler
+   */
+  public static void main(String[] args) {
     ArrayList<Integer> list = new ArrayList<Integer>();
-    int i = 0;
-    while(i < 10)
-    {
-      list.add(i);
-      i++;
+    int loopCounter = 0;
+    while (loopCounter < 10) {
+      list.add(loopCounter);
+      loopCounter++;
     }
-    System.out.println(list);
+    System.out.println("Starting list: " + list);
     Collections.shuffle(list);
-    System.out.println(list);
+    System.out.println("Shuffled list: " + list);
   }
 }
