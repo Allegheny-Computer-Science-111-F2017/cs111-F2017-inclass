@@ -31,7 +31,7 @@ public class Average {
     System.out.print("Enter an integer (0 to quit): ");
     value = scan.nextInt();
 
-    // use a sentinel value of 0 to terminate loop
+    // use a sentinel value of 0 to terminate the loop
     while (value != 0) {
       count++;
       sum += value;
@@ -46,7 +46,7 @@ public class Average {
       System.out.println("No values were entered.");
     } else {
       average = (double)sum / count;
-      DecimalFormat fmt = new DecimalFormat ("0.###");
+      DecimalFormat fmt = new DecimalFormat("0.###");
       System.out.println("The average is " + fmt.format(average));
     }
   }
