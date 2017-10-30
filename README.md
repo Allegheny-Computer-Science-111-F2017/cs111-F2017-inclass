@@ -19,6 +19,4 @@ git pull
 
 If you have any problems with compiling or using these Java programs, then
 please create an issue in this repository using the "Issues" link at the top of
-this site. To ensure that your issue is correctly resolved, please share the
-details concerning your execution environment and the way in which you tried to
-compile and run the Java program.
+this GitHub repository.
