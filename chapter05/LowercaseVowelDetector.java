@@ -18,17 +18,17 @@ public class LowercaseVowelDetector {
     char character;
     character = input.next().charAt(0);
     if (character == 'a') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a lowercase vowel\n", character);
     } else if (character == 'e') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a lowercase vowel\n", character);
     } else if (character == 'i') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a lowercase vowel\n", character);
     } else if (character == 'o') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a lowercase vowel\n", character);
     } else if (character == 'u') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a lowercase vowel\n", character);
     } else {
-      System.out.printf("%c is not a lowercase vowel\n", character);
+      System.out.printf("%c is not a lowercase lowercase vowel\n", character);
     }
   }
 }

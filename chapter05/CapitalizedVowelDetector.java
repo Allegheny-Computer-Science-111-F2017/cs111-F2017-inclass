@@ -18,17 +18,17 @@ public class CapitalizedVowelDetector {
     char character;
     character = input.next().charAt(0);
     if (character == 'A') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a capitalized vowel\n", character);
     } else if (character == 'E') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a capitalized vowel\n", character);
     } else if (character == 'I') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a capitalized vowel\n", character);
     } else if (character == 'O') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a capitalized vowel\n", character);
     } else if (character == 'U') {
-      System.out.printf("%c is a vowel\n", character);
+      System.out.printf("%c is a capitalized vowel\n", character);
     } else {
-      System.out.printf("%c is not a capitalized vowel\n", character);
+      System.out.printf("%c is not a capitalized capitalized vowel\n", character);
     }
   }
 }
